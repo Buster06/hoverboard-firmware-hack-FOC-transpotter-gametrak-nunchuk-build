@@ -439,7 +439,7 @@ int main(void) {
               nunchuk_connected = 0;
 	    }
           }
-        }   
+        // }   
       #endif
 
       #ifdef SUPPORT_LCD

@@ -587,9 +587,9 @@
 //TODO ADD VALIDATION
 #ifdef VARIANT_TRANSPOTTER
   #define FLASH_WRITE_KEY     0x1009    // Flash memory writing key. Change this key to ignore the input calibrations from the flash memory and use the ones in config.h
-  #define CONTROL_GAMETRAK
-  #define SUPPORT_LCD
-  // #define SUPPORT_NUNCHUK
+  // #define CONTROL_GAMETRAK
+  // #define SUPPORT_LCD
+  #define SUPPORT_NUNCHUK
   #define GAMETRAK_CONNECTION_NORMAL    // for normal wiring according to the wiki instructions
   // #define GAMETRAK_CONNECTION_ALTERNATE // use this define instead if you messed up the gametrak ADC wiring (steering is speed, and length of the wire is steering)
   #define ROT_P               1.2       // P coefficient for the direction controller. Positive / Negative values to invert gametrak steering direction.

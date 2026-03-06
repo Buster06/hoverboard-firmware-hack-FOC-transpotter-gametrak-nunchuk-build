@@ -149,7 +149,7 @@ static uint8_t sideboard_leds_R;
   static uint16_t transpotter_counter = 0;
 #endif
 
-// static int16_t    speed;                // local variable for speed. -1000 to 1000
+static int16_t    speed;                // local variable for speed. -1000 to 1000
 #ifndef VARIANT_TRANSPOTTER
   static int16_t  steer;                // local variable for steering. -1000 to 1000
   static int16_t  steerRateFixdt;       // local fixed-point variable for steering rate limiter
@@ -162,7 +162,7 @@ static uint32_t    buzzerTimer_prev = 0;
 static uint32_t    inactivity_timeout_counter;
 static MultipleTap MultipleTapBrake;    // define multiple tap functionality for the Brake pedal
 
-// static uint16_t rate = RATE; // Adjustable rate to support multiple drive modes on startup
+static uint16_t rate = RATE; // Adjustable rate to support multiple drive modes on startup
 
 #ifdef MULTI_MODE_DRIVE
   static uint8_t drive_mode;

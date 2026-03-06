@@ -603,6 +603,7 @@ int main(void) {
     inIdx_prev = inIdx;
     buzzerTimer_prev = buzzerTimer;
     main_loop_counter++;
+    }
   }
 }
 
